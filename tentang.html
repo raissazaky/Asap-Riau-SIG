@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tentang Kami – ASAP RIAU</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<section class="phero">
+  <div class="wrap"><span class="pill">Tentang proyek</span><h1>Kelompok 4 · PJBL SIG GD4103</h1>
+    <p>Program Studi Teknik Geodesi dan Geomatika, Institut Teknologi Bandung. Fokus: bahaya dan dampak asap kebakaran hutan dan lahan di Provinsi Riau.</p></div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Latar belakang</span><h2 class="title">Mengapa asap, bukan hanya api?</h2>
+    <p class="sub">Kebakaran gambut di Riau menghasilkan asap yang terbawa angin ratusan kilometer, menurunkan kualitas udara di kota-kota yang jauh dari titik api, termasuk negara tetangga. Karena itu kami memetakan kerawanan sekaligus menelusuri ke mana asap bergerak dan siapa yang terpapar.</p>
+    <div class="grid g3">
+      <div class="card reveal"><div class="ic">🎯</div><h4>Tujuan</h4><p>Menyediakan peta kerawanan karhutla bulanan, sebaran asap, dan wilayah terdampak dalam satu WebGIS terbuka.</p></div>
+      <div class="card reveal"><div class="ic">📍</div><h4>Wilayah & waktu</h4><p>12 kabupaten/kota Provinsi Riau, Januari–Oktober 2026, dengan simulasi asap hingga Malaysia dan Singapura.</p></div>
+      <div class="card reveal"><div class="ic">🧩</div><h4>Keluaran</h4><p>WebGIS multi-halaman, peta layout, GeoTIFF kerawanan, tabel validasi, dan laporan analisis dampak.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-gray">
+  <div class="wrap">
+    <span class="eyebrow">Tim</span><h2 class="title">Anggota kelompok</h2><p class="sub"></p>
+    <div class="grid g3" id="tim"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Teknologi</span><h2 class="title">Dibangun dengan perangkat terbuka</h2><p class="sub"></p>
+    <div class="grid g4">
+      <div class="card reveal"><div class="ic">🌍</div><h4>Google Earth Engine</h4><p>Agregasi data iklim dan satelit per bulan dan per kabupaten.</p></div>
+      <div class="card reveal"><div class="ic">🐍</div><h4>Python</h4><p>Skoring, AHP, validasi, konversi KMZ HYSPLIT, analisis paparan.</p></div>
+      <div class="card reveal"><div class="ic">🗺️</div><h4>QGIS</h4><p>Pengecekan data dan peta layout otomatis lewat plugin kelompok.</p></div>
+      <div class="card reveal"><div class="ic">🍃</div><h4>Leaflet + Chart.js</h4><p>Peta interaktif dan grafik di WebGIS statis (GitHub Pages).</p></div>
+    </div>
+    <div style="text-align:center;margin-top:34px">
+      <span class="badge">NASA FIRMS</span><span class="badge">NOAA ARL HYSPLIT</span><span class="badge">CHIRPS</span><span class="badge">ECMWF ERA5-Land</span><span class="badge">NASA MERRA-2</span><span class="badge">ESA Sentinel-5P</span><span class="badge">CIFOR</span><span class="badge">Badan Informasi Geospasial</span>
+    </div>
+  </div>
+</section>
+
+<section class="section-gray">
+  <div class="wrap">
+    <span class="eyebrow">Kesesuaian KAK</span><h2 class="title">Fitur yang dipenuhi WebGIS</h2><p class="sub"></p>
+    <table class="t">
+      <tr><th>Ketentuan</th><th>Implementasi</th></tr>
+      <tr><td>Layer input, model, dan dampak</td><td>Curah hujan, HTH, FWI, gambut · kerawanan AHP · asap HYSPLIT per hari, paparan kabupaten & kota</td></tr>
+      <tr><td>Basemap, legenda, skala, zoom</td><td>4 basemap, legenda dinamis, skala metrik, kontrol zoom</td></tr>
+      <tr><td>Toggle layer & transparansi</td><td>Kotak centang dan slider transparansi tiap layer</td></tr>
+      <tr><td>Popup informasi</td><td>Kabupaten, titik panas, poligon asap, sumber emisi, kota</td></tr>
+      <tr><td>Pencarian / filter</td><td>Filter kabupaten, bulan, hari simulasi, variabel choropleth</td></tr>
+      <tr><td>Statistik ringkas</td><td>Kartu Ringkasan Cepat, grafik tren, peringkat, tabel paparan</td></tr>
+      <tr><td>Nilai tambah</td><td>Slider waktu + animasi, tur panduan, analisis lintas batas</td></tr>
+    </table>
+  </div>
+</section>
+<script src="assets/js/layout.js"></script>
+<script>
+const TIM = [
+  ["Nama Anggota 1", "NIM", "Ketua · analisis AHP"],
+  ["Nama Anggota 2", "NIM", "Data iklim & GEE"],
+  ["Nama Anggota 3", "NIM", "HYSPLIT & dispersi asap"],
+  ["Nama Anggota 4", "NIM", "Analisis dampak"],
+  ["Nama Anggota 5", "NIM", "WebGIS"],
+  ["Nama Anggota 6", "NIM", "Layout peta & PPT"]
+];
+tim.innerHTML = TIM.map(([n, nim, r]) => `<div class="card person reveal on"><div class="av">${n.split(" ").map(s => s[0]).join("").slice(0, 2)}</div><b>${n}</b><small>${nim}</small><p style="margin-top:6px">${r}</p></div>`).join("");
+</script>
+</body>
+</html>

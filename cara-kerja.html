@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cara Kerja – ASAP RIAU</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<section class="phero">
+  <div class="wrap">
+    <span class="pill">Alur sistem</span>
+    <h1>Bagaimana ASAP RIAU Bekerja</h1>
+    <p>Dari data satelit dan cuaca, menjadi peta kerawanan, lalu simulasi asap dan perhitungan wilayah terdampak.</p>
+    <div class="chips"><span><b>Input</b>6 kriteria + titik panas</span><span><b>Proses</b>AHP · HYSPLIT · overlay</span><span><b>Output</b>peta, statistik, grafik</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Alur kerja</span><h2 class="title">Enam langkah utama</h2><p class="sub">Setiap langkah dijalankan untuk 10 bulan (Januari–Oktober 2026).</p>
+    <div class="grid g2 steps">
+      <div class="card step reveal"><h4>Pengumpulan data</h4><p>Curah hujan CHIRPS, suhu/RH/angin ERA5-Land, gambut CIFOR v2.1, titik panas NASA FIRMS MODIS, serta AOD, CO, PM2.5 satelit sebagai indikator asap. Diolah di Google Earth Engine dan Python.</p></div>
+      <div class="card step reveal"><h4>Skoring kriteria</h4><p>Setiap kriteria dibagi menjadi skor 1–5 menggunakan kuantil (20/40/60/80%) dari seluruh bulan, sedangkan gambut memakai skor 1 + 4 × fraksi gambut sel.</p></div>
+      <div class="card step reveal"><h4>Pembobotan AHP</h4><p>Bobot dihitung dari matriks perbandingan berpasangan berbasis literatur, lalu indeks kerawanan = Σ bobot × skor dan diklasifikasikan menjadi 5 kelas interval sama.</p></div>
+      <div class="card step reveal"><h4>Validasi</h4><p>Peta dicocokkan dengan titik panas 2026 menggunakan AUC-ROC, frequency ratio, dan uji sensitivitas bobot ±10–20%.</p></div>
+      <div class="card step reveal"><h4>Simulasi asap HYSPLIT</h4><p>Hari dengan titik panas terbanyak tiap bulan dipilih; sumber diletakkan di klaster titik panas dan dijalankan model konsentrasi 72 jam (rata-rata 0–100 m).</p></div>
+      <div class="card step reveal"><h4>Analisis paparan & penyajian</h4><p>Poligon kontur asap ditumpangsusunkan dengan batas kabupaten dan kota untuk menghitung luas terpapar, durasi, dan sebaran lintas batas, lalu disajikan di dashboard.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-gray">
+  <div class="wrap">
+    <span class="eyebrow">Panduan dashboard</span><h2 class="title">Cara memakai dashboard dalam 4 langkah</h2><p class="sub">Panduan ini juga muncul otomatis sebagai tur singkat saat dashboard pertama kali dibuka.</p>
+    <div class="grid g4">
+      <div class="card reveal"><div class="ic">📅</div><h4>1. Pilih bulan</h4><p>Geser slider waktu atau tekan ▶ untuk animasi Januari–Oktober.</p></div>
+      <div class="card reveal"><div class="ic">🗂️</div><h4>2. Atur layer</h4><p>Nyalakan kerawanan, titik panas, asap HYSPLIT, angin, atau gambut. Atur transparansinya.</p></div>
+      <div class="card reveal"><div class="ic">🔎</div><h4>3. Filter wilayah</h4><p>Pilih kabupaten untuk memperbesar peta dan menampilkan statistiknya.</p></div>
+      <div class="card reveal"><div class="ic">📊</div><h4>4. Baca grafik</h4><p>Lihat tren bulanan dan peringkat kabupaten di panel statistik bawah peta.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Data</span><h2 class="title">Sumber data yang digunakan</h2><p class="sub"></p>
+    <table class="t">
+      <tr><th>Data</th><th>Sumber</th><th>Resolusi</th><th>Kegunaan</th></tr>
+      <tr><td>Titik panas & FRP</td><td>NASA FIRMS MODIS C6.1</td><td>1 km, harian</td><td>Validasi, pemilihan hari puncak, sumber HYSPLIT</td></tr>
+      <tr><td>Curah hujan, hari tanpa hujan</td><td>CHIRPS daily</td><td>0,05°</td><td>Kriteria AHP</td></tr>
+      <tr><td>Suhu, kelembapan, angin</td><td>ERA5-Land</td><td>0,1° → 0,05°</td><td>Kriteria AHP, panah angin</td></tr>
+      <tr><td>Lahan gambut</td><td>CIFOR Peatland v2.1</td><td>±100 m</td><td>Kriteria AHP (bobot terbesar)</td></tr>
+      <tr><td>Dispersi asap</td><td>NOAA ARL READY HYSPLIT (GDAS 0,25°)</td><td>72 jam</td><td>Sebaran dan paparan asap</td></tr>
+      <tr><td>AOD, CO, Aerosol Index, PM2.5</td><td>MODIS MAIAC, Sentinel-5P, MERRA-2</td><td>bulanan, per kabupaten</td><td>Indikator asap pembanding</td></tr>
+      <tr><td>Batas administrasi</td><td>BIG / Badan Informasi Geospasial</td><td>kabupaten/kota</td><td>Unit analisis</td></tr>
+    </table>
+  </div>
+</section>
+
+<section style="padding-top:0"><div class="wrap"><div class="cta-banner cta-blue reveal"><h3>Siap mencoba?</h3><p>Buka dashboard dan ikuti tur singkatnya.</p><a class="btn btn-amber" href="dashboard.html">Buka Dashboard</a></div></div></section>
+<script src="assets/js/layout.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ASAP RIAU – WebGIS Bahaya & Dampak Asap Karhutla Provinsi Riau 2026</title>
+<meta name="description" content="WebGIS kerawanan kebakaran hutan dan lahan (AHP), dispersi asap HYSPLIT dan wilayah terdampak di Provinsi Riau, Januari–Oktober 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<section class="hero" style="padding:0">
+  <div class="wrap">
+    <div>
+      <span class="pill">● Pemantauan Jan – Okt 2026 · Provinsi Riau</span>
+      <h1>Pantau <em>Bahaya Asap</em> Karhutla dan Wilayah Terdampaknya dalam Satu Peta</h1>
+      <p class="lead">ASAP RIAU menggabungkan peta kerawanan karhutla berbasis AHP, titik panas satelit, dan simulasi dispersi asap NOAA HYSPLIT untuk menjawab tiga pertanyaan: <b>di mana api berpotensi muncul</b>, <b>ke mana asapnya pergi</b>, dan <b>siapa yang terpapar</b>.</p>
+      <div class="actions"><a class="btn btn-amber" href="dashboard.html">Jelajahi Dashboard →</a><a class="btn btn-ghost" href="cara-kerja.html">Lihat Cara Kerja</a></div>
+    </div>
+    <div class="glass reveal">
+      <small>Ringkasan sistem</small>
+      <h3>Dari titik api ke paparan asap</h3>
+      <p>Tiga lapisan analisis yang saling terhubung dan dapat diatur per bulan.</p>
+      <div class="item"><span>🔥 Kerawanan karhutla (AHP 6 kriteria)</span><b>5 kelas</b></div>
+      <div class="item"><span>🛰️ Titik panas MODIS + FRP</span><b id="h-hot">–</b></div>
+      <div class="item"><span>💨 Simulasi HYSPLIT 72 jam</span><b>10 kejadian</b></div>
+      <div class="item"><span>🗺️ Kabupaten/kota dianalisis</span><b>12</b></div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap strip">
+  <div class="grid g4">
+    <div class="stat"><div class="n or" id="s1">0</div><div class="l">titik panas terdeteksi (Jan–Okt 2026)</div></div>
+    <div class="stat"><div class="n" id="s2">0</div><div class="l">AUC model kerawanan terhadap titik panas</div></div>
+    <div class="stat"><div class="n" id="s3">0</div><div class="l">% titik panas jatuh di kelas tinggi–sangat tinggi</div></div>
+    <div class="stat"><div class="n or" id="s4">0</div><div class="l">bulan asap melintas ke Malaysia/Singapura</div></div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Cakupan Sistem</span>
+    <h2 class="title">Satu platform untuk tiga tahap analisis</h2>
+    <p class="sub">Setiap lapisan data disusun per bulan sehingga hubungan antara cuaca, api, dan asap dapat dibaca berurutan.</p>
+    <div class="grid g4">
+      <div class="card reveal"><div class="ic">🌦️</div><h4>Data Input</h4><p>Curah hujan, hari tanpa hujan, suhu, kelembapan, angin, dan sebaran gambut pada grid 0,05°.</p><span class="tag">6 kriteria</span></div>
+      <div class="card reveal"><div class="ic">🧮</div><h4>Model Kerawanan</h4><p>Pembobotan AHP berbasis literatur (CR = 0,012) menghasilkan indeks kerawanan bulanan 5 kelas.</p><span class="tag">AHP · Saaty</span></div>
+      <div class="card reveal"><div class="ic">💨</div><h4>Dispersi Asap</h4><p>Konsentrasi relatif asap 72 jam dari HYSPLIT pada hari puncak titik panas tiap bulan.</p><span class="tag">NOAA HYSPLIT</span></div>
+      <div class="card reveal"><div class="ic">👥</div><h4>Dampak</h4><p>Luas wilayah terpapar per kabupaten, kota terdampak, durasi paparan, dan sebaran lintas batas negara.</p><span class="tag">Analisis paparan</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-gray">
+  <div class="wrap">
+    <span class="eyebrow">Gambaran 2026</span>
+    <h2 class="title">Api dan asap bergerak mengikuti musim</h2>
+    <p class="sub">Titik panas memuncak dua kali: akhir musim kemarau pertama (Februari–Maret) dan musim kemarau utama (Agustus–September). Garis ungu menunjukkan rata-rata luas wilayah kabupaten yang tercakup asap HYSPLIT.</p>
+    <div class="card"><div class="chartbox" style="height:340px"><canvas id="cTren"></canvas></div>
+    <p class="note" style="margin-top:10px">Setiap bulan memiliki satu simulasi HYSPLIT 72 jam pada hari puncak titik panas. Titik panas: NASA FIRMS MODIS C6.1, confidence ≥ 30.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Siapa yang terbantu</span>
+    <h2 class="title">Dirancang untuk pengambilan keputusan</h2>
+    <p class="sub">Informasi disajikan agar mudah dipakai oleh pihak yang berbeda kebutuhan.</p>
+    <div class="grid g3">
+      <div class="card reveal"><div class="ic">🏛️</div><h4>BPBD & Pemerintah Daerah</h4><p>Menentukan kabupaten prioritas patroli dan kesiapsiagaan pada bulan dengan kerawanan tinggi.</p></div>
+      <div class="card reveal"><div class="ic">🏥</div><h4>Dinas Kesehatan</h4><p>Mengetahui kota yang berada di jalur asap untuk menyiapkan posko dan peringatan ISPA.</p></div>
+      <div class="card reveal"><div class="ic">🎓</div><h4>Akademisi & Masyarakat</h4><p>Mempelajari hubungan cuaca, gambut, api, dan asap secara terbuka melalui peta interaktif.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="cta-banner reveal">
+      <span class="eyebrow">Mulai eksplorasi</span>
+      <h3>Geser waktu, pilih kabupaten, lihat ke mana asap pergi</h3>
+      <p>Dashboard menampilkan peta, statistik, grafik, dan panduan singkat penggunaan.</p>
+      <a class="btn btn-blue" href="dashboard.html">Buka Dashboard</a> <a class="btn btn-line" href="metodologi.html">Pelajari Metodologi</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-gray">
+  <div class="wrap" style="max-width:860px">
+    <span class="eyebrow">FAQ</span><h2 class="title">Pertanyaan yang sering muncul</h2><p class="sub"></p>
+    <details><summary>Apakah konsentrasi HYSPLIT menunjukkan nilai PM2.5 sebenarnya?</summary><p>Tidak. Simulasi dijalankan dengan pelepasan satuan (unit release), sehingga nilainya adalah konsentrasi relatif (/m³). Nilai ini dipakai untuk membandingkan tingkat kepekatan antarwilayah, bukan untuk menyatakan ISPU.</p></details>
+    <details><summary>Mengapa hanya satu tanggal per bulan?</summary><p>Setiap bulan dipilih hari dengan jumlah titik panas terbanyak, lalu dijalankan simulasi 72 jam dari klaster titik panas pada hari tersebut. Ini mewakili kejadian asap terburuk di bulan itu.</p></details>
+    <details><summary>Seberapa akurat peta kerawanan?</summary><p>Diuji dengan titik panas 2026: AUC 0,71; kelas tinggi–sangat tinggi mencakup 26,7% luas wilayah tetapi menampung 60,7% titik panas.</p></details>
+    <details><summary>Dari mana bobot AHP berasal?</summary><p>Matriks perbandingan berpasangan disusun dari literatur (Novitasari & Monik 2025; Field dkk. 2016; Hayasaka 2023) dan konsisten (CR 0,012 &lt; 0,1). Rincian ada di halaman Metodologi.</p></details>
+  </div>
+</section>
+
+<script src="assets/js/layout.js"></script>
+<script>
+fetch("data/ringkasan.json").then(r => r.json()).then(R => {
+  const v = R.validasi, n = R.seri.hotspot.reduce((a, b) => a + (b || 0), 0);
+  hitung(s1, n); hitung(s2, v.auc, 2); hitung(s3, v.hot_tinggi, 1);
+  const lintas = Object.values(R.paparan).filter(p => ["Singapura", "Kuala Lumpur", "Johor Bahru", "Melaka", "Port Dickson"].some(k => k in p.kota)).length;
+  hitung(s4, lintas); document.getElementById("h-hot").textContent = n.toLocaleString("id-ID");
+  if (!window.Chart) return;
+  new Chart(cTren, { data: { labels: R.months.map(namaBulan), datasets: [
+    { type: "bar", label: "Titik panas", data: R.seri.hotspot, backgroundColor: "#f97316", borderRadius: 6, yAxisID: "y" },
+    { type: "line", label: "Wilayah terpapar asap (%)", data: R.seri.asap_terpapar, borderColor: "#7c3aed", backgroundColor: "#7c3aed", tension: .35, spanGaps: false, yAxisID: "y1" }] },
+    options: { maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+      scales: { y: { title: { display: true, text: "titik panas" }, grid: { color: "#eef2f7" } }, y1: { position: "right", min: 0, max: 100, title: { display: true, text: "% wilayah" }, grid: { display: false } }, x: { grid: { display: false } } } } });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Metodologi – ASAP RIAU</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<section class="phero" style="background:linear-gradient(120deg,#1e3a8a,#1d4ed8 60%,#2563eb)">
+  <div class="wrap">
+    <span class="pill">Metodologi ilmiah</span>
+    <h1>AHP + HYSPLIT + Analisis Paparan</h1>
+    <p>Model kerawanan multikriteria yang divalidasi dengan titik panas, dilanjutkan dengan simulasi dispersi asap untuk menilai wilayah terdampak.</p>
+    <div class="chips"><span><b>CR</b>0,012 (konsisten)</span><span><b>AUC</b><span id="m-auc">–</span></span><span><b>Grid</b>0,05° · 3.174 sel</span><span><b>HYSPLIT</b>10 run × 72 jam</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Tahap 1</span><h2 class="title">Matriks perbandingan berpasangan AHP</h2>
+    <p class="sub">Nilai matriks disusun dari literatur. Gambut paling dominan karena menentukan keberlanjutan pembakaran dan volume asap; curah hujan dan hari kering mengatur kekeringan bahan bakar; meteorologi harian berperan sekunder.</p>
+    <div class="grid g2">
+      <div class="card">
+        <table class="t matrix"><tr><th></th><th>G</th><th>HK</th><th>CH</th><th>RH</th><th>T</th><th>A</th></tr>
+          <tr><th>Gambut</th><td>1</td><td>2</td><td>2</td><td>9</td><td>9</td><td>9</td></tr>
+          <tr><th>Hari kering</th><td>1/2</td><td>1</td><td>1</td><td>6</td><td>6</td><td>9</td></tr>
+          <tr><th>Curah hujan</th><td>1/2</td><td>1</td><td>1</td><td>6</td><td>6</td><td>9</td></tr>
+          <tr><th>Kelembapan</th><td>1/9</td><td>1/6</td><td>1/6</td><td>1</td><td>1</td><td>2</td></tr>
+          <tr><th>Suhu</th><td>1/9</td><td>1/6</td><td>1/6</td><td>1</td><td>1</td><td>2</td></tr>
+          <tr><th>Angin</th><td>1/9</td><td>1/9</td><td>1/9</td><td>1/2</td><td>1/2</td><td>1</td></tr></table>
+        <p class="note" style="margin-top:12px">λ<sub>maks</sub> = 6,073 · CI = 0,015 · RI = 1,24 · <b>CR = 0,012 &lt; 0,1</b></p>
+      </div>
+      <div class="card"><div class="chartbox"><canvas id="cBobot"></canvas></div></div>
+    </div>
+    <div class="card" style="margin-top:20px">
+      <h4 style="margin-top:0">Rujukan nilai matriks</h4>
+      <p class="note">• <b>Novitasari & Monik (2025)</b>, Jurnal Sylva Lestari 13(3):865–879 — urutan bobot gambut > curah hujan > suhu > angin pada karhutla Riau (Sec. 3.2, Gbr. 3).<br>
+      • <b>Field dkk. (2016)</b>, PNAS 113(33):9204–9209 — kekeringan (curah hujan rendah, musim kemarau panjang) sebagai pengendali utama kebakaran gambut Indonesia.<br>
+      • <b>Hayasaka (2023)</b>, Climate 11(5):92 — jumlah hari tanpa hujan berturut-turut sebagai indikator kebakaran gambut Riau.<br>
+      • <b>Saaty (1980)</b> — skala 1–9 dan uji konsistensi.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-gray">
+  <div class="wrap">
+    <span class="eyebrow">Tahap 2</span><h2 class="title">Validasi dengan titik panas 2026</h2>
+    <p class="sub">Model dinilai baik bila titik panas terkonsentrasi di kelas kerawanan tinggi. Frequency ratio (FR) &gt; 1 berarti kelas tersebut lebih sering terbakar dibanding luasnya.</p>
+    <div class="grid g3" id="valcards"></div>
+    <div class="grid g2" style="margin-top:20px">
+      <div class="card"><h4 style="margin-top:0">Frequency ratio per kelas</h4><div class="chartbox"><canvas id="cFR"></canvas></div></div>
+      <div class="card"><h4 style="margin-top:0">Sensitivitas bobot (AUC)</h4><div class="chartbox"><canvas id="cSens"></canvas></div><p class="note">Bobot setiap kriteria diubah ±10% dan ±20%. Peringkat sel tetap sangat stabil (Spearman ≥ 0,988).</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Tahap 3</span><h2 class="title">Simulasi dispersi asap HYSPLIT</h2>
+    <p class="sub">Model konsentrasi NOAA READY, meteorologi GDAS 0,25°, durasi 72 jam, rata-rata lapisan 0–100 m (lapisan yang dihirup manusia). Sumber diletakkan di klaster titik panas pada hari puncak setiap bulan.</p>
+    <table class="t" id="tHys"><tr><th>Bulan</th><th>Tanggal mulai</th><th>Jumlah sumber</th><th>Kota di luar Riau yang dilalui asap</th></tr></table>
+    <div class="grid g2" style="margin-top:20px">
+      <div class="card"><h4 style="margin-top:0">Kelas kepekatan asap</h4>
+        <table class="t"><tr><th>Kelas</th><th>Konsentrasi relatif (/m³)</th><th>Interpretasi</th></tr>
+        <tr><td><span class="badge" style="background:#a50026;color:#fff">5</span></td><td>≥ 1E-10</td><td>Sangat pekat (dekat sumber)</td></tr>
+        <tr><td><span class="badge" style="background:#f46d43;color:#fff">4</span></td><td>1E-11</td><td>Pekat</td></tr>
+        <tr><td><span class="badge" style="background:#fdae61">3</span></td><td>1E-12</td><td>Sedang</td></tr>
+        <tr><td><span class="badge" style="background:#9ecae1">2</span></td><td>1E-13</td><td>Tipis</td></tr>
+        <tr><td><span class="badge" style="background:#c6dbef">1</span></td><td>≤ 1E-14</td><td>Sangat tipis</td></tr></table>
+        <p class="note">Nilai relatif karena memakai pelepasan satuan (unit release); dipakai untuk membandingkan, bukan menyatakan ISPU.</p></div>
+      <div class="card"><h4 style="margin-top:0">Analisis paparan</h4>
+        <p class="note">1. Kontur asap tiap hari (3 periode × 24 jam) diubah menjadi poligon GeoJSON.<br>2. Setiap kabupaten disampel dengan grid 0,02° (±2,2 km).<br>3. Dihitung: % luas terpapar, % luas kelas sedang ke atas, kelas maksimum, dan jumlah hari terpapar.<br>4. Kota acuan di Riau dan negara tetangga diuji apakah berada di dalam kontur asap (lintas batas).</p>
+        <p class="note"><b>Keterbatasan:</b> satu kejadian per bulan; emisi tidak dikalibrasi dengan FRP.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0"><div class="wrap"><div class="cta-banner reveal"><h3>Lihat hasilnya di peta</h3><p>Semua lapisan metodologi tersedia di dashboard.</p><a class="btn btn-blue" href="dashboard.html">Buka Dashboard</a></div></div></section>
+<script src="assets/js/layout.js"></script>
+<script>
+const W = { "Gambut": .395, "Hari kering": .244, "Curah hujan": .244, "Kelembapan": .045, "Suhu": .045, "Angin": .028 };
+if (window.Chart) new Chart(cBobot, { type: "bar", data: { labels: Object.keys(W), datasets: [{ data: Object.values(W), backgroundColor: ["#78481e", "#f97316", "#1d4ed8", "#0ea5e9", "#ef4444", "#64748b"], borderRadius: 8 }] },
+  options: { indexAxis: "y", maintainAspectRatio: false, plugins: { legend: { display: false }, title: { display: true, text: "Bobot AHP (Σ = 1)" } }, scales: { x: { max: .45 } } } });
+fetch("data/ringkasan.json").then(r => r.json()).then(R => {
+  const v = R.validasi; document.getElementById("m-auc").textContent = v.auc.toFixed(2);
+  valcards.innerHTML = [["AUC kerawanan", v.auc.toFixed(3), "0,5 = acak · 1 = sempurna"], ["Titik panas di kelas tinggi–sangat tinggi", v.hot_tinggi + "%", "pada " + v.luas_tinggi + "% luas wilayah"], ["Pembanding indeks cuaca", "FWI " + v.auc_fwi + " · DC " + v.auc_dc, "AUC indeks Kanada (hanya cuaca)"]]
+    .map(([a, b, c]) => `<div class="card stat"><div class="n">${b}</div><div class="l"><b>${a}</b><br>${c}</div></div>`).join("");
+  const nm = ["Sangat rendah", "Rendah", "Sedang", "Tinggi", "Sangat tinggi"], col = ["#1a9641", "#a6d96a", "#e5d96b", "#fdae61", "#d7191c"];
+  if (window.Chart) {
+    new Chart(cFR, { type: "bar", data: { labels: nm, datasets: [{ label: "FR", data: v.kelas.map(k => k.fr), backgroundColor: col, borderRadius: 6 }, { label: "% luas", data: v.kelas.map(k => k.luas_pct), type: "line", borderColor: "#64748b", yAxisID: "y1" }] },
+      options: { maintainAspectRatio: false, scales: { y: { title: { display: true, text: "Frequency ratio" } }, y1: { position: "right", grid: { display: false }, title: { display: true, text: "% luas" } } } } });
+    const fak = [...new Set(R.sensitivitas.map(s => s.faktor))], per = ["-20%", "-10%", "+10%", "+20%"];
+    new Chart(cSens, { type: "bar", data: { labels: fak, datasets: per.map((p, i) => ({ label: p, data: fak.map(f => (R.sensitivitas.find(s => s.faktor === f && s.perubahan === p) || {}).auc), backgroundColor: ["#bfdbfe", "#60a5fa", "#fdba74", "#ea580c"][i] })) },
+      options: { maintainAspectRatio: false, scales: { y: { min: .66, max: .74, title: { display: true, text: "AUC" } } } } });
+  }
+  const luar = ["Singapura", "Batam", "Johor Bahru", "Tanjungpinang", "Melaka", "Kuala Lumpur", "Port Dickson", "Medan", "Padang", "Jambi", "Palembang"];
+  Object.entries(R.paparan).sort().forEach(([ym, p]) => {
+    const k = Object.keys(p.kota).filter(x => luar.includes(x));
+    tHys.insertAdjacentHTML("beforeend", `<tr><td>${namaBulan(ym)}</td><td>${p.hari[0]}</td><td class="num">${p.n_sumber}</td><td>${k.length ? k.join(", ") : "<span class='note'>tetap di sekitar Riau</span>"}</td></tr>`);
+  });
+});
+</script>
+</body>
+</html>

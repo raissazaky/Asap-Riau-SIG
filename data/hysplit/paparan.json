@@ -1,0 +1,1849 @@
+{
+ "2026_01": {
+  "hari": [
+   "2026-01-27",
+   "2026-01-28"
+  ],
+  "n_poligon": 47,
+  "sumber": [
+   [
+    101.0573,
+    1.1746,
+    11.0,
+    17.0
+   ],
+   [
+    101.6851,
+    1.802,
+    11.0,
+    17.0
+   ],
+   [
+    101.6789,
+    1.7979,
+    11.0,
+    17.0
+   ],
+   [
+    101.6915,
+    1.8041,
+    11.0,
+    17.0
+   ],
+   [
+    101.672,
+    1.8014,
+    11.0,
+    17.0
+   ],
+   [
+    103.2557,
+    -0.0481,
+    11.0,
+    17.0
+   ],
+   [
+    101.6862,
+    1.8067,
+    11.0,
+    17.0
+   ]
+  ],
+  "kab": {
+   "Indragiri Hilir": {
+    "terpapar_pct": 47.4,
+    "sedang_ke_atas_pct": 19.2,
+    "kelas_maks": 4,
+    "hari_terpapar": 2
+   },
+   "Indragiri Hulu": {
+    "terpapar_pct": 6.2,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 2,
+    "hari_terpapar": 1
+   },
+   "Kampar": {
+    "terpapar_pct": 74.1,
+    "sedang_ke_atas_pct": 5.0,
+    "kelas_maks": 4,
+    "hari_terpapar": 2
+   },
+   "Kuantan Singingi": {
+    "terpapar_pct": 52.9,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 2,
+    "hari_terpapar": 1
+   },
+   "Pelalawan": {
+    "terpapar_pct": 3.1,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 2,
+    "hari_terpapar": 1
+   },
+   "Rokan Hilir": {
+    "terpapar_pct": 94.8,
+    "sedang_ke_atas_pct": 84.1,
+    "kelas_maks": 4,
+    "hari_terpapar": 2
+   },
+   "Rokan Hulu": {
+    "terpapar_pct": 93.1,
+    "sedang_ke_atas_pct": 61.3,
+    "kelas_maks": 4,
+    "hari_terpapar": 2
+   },
+   "Bengkalis": {
+    "terpapar_pct": 60.7,
+    "sedang_ke_atas_pct": 31.3,
+    "kelas_maks": 4,
+    "hari_terpapar": 2
+   },
+   "Kepulauan Meranti": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Kota Dumai": {
+    "terpapar_pct": 80.5,
+    "sedang_ke_atas_pct": 65.0,
+    "kelas_maks": 4,
+    "hari_terpapar": 2
+   },
+   "Kota Pekanbaru": {
+    "terpapar_pct": 9.5,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 2,
+    "hari_terpapar": 1
+   },
+   "Siak": {
+    "terpapar_pct": 20.4,
+    "sedang_ke_atas_pct": 6.7,
+    "kelas_maks": 4,
+    "hari_terpapar": 2
+   }
+  },
+  "kota_kelas": {
+   "Dumai": 4,
+   "Tembilahan": 3,
+   "Bangkinang": 2,
+   "Bagansiapiapi": 2,
+   "Pasir Pengaraian": 3
+  }
+ },
+ "2026_02": {
+  "hari": [
+   "2026-02-11",
+   "2026-02-12",
+   "2026-02-13"
+  ],
+  "n_poligon": 86,
+  "sumber": [
+   [
+    101.6687,
+    1.8268,
+    7.0,
+    25.0
+   ],
+   [
+    101.6775,
+    1.8256,
+    7.0,
+    25.0
+   ],
+   [
+    101.6675,
+    1.818,
+    7.0,
+    25.0
+   ],
+   [
+    101.7062,
+    1.5805,
+    7.0,
+    25.0
+   ],
+   [
+    101.7151,
+    1.5793,
+    7.0,
+    25.0
+   ],
+   [
+    102.2134,
+    1.4805,
+    7.0,
+    25.0
+   ],
+   [
+    102.2225,
+    1.4792,
+    7.0,
+    25.0
+   ],
+   [
+    102.2122,
+    1.4715,
+    7.0,
+    25.0
+   ],
+   [
+    102.2213,
+    1.4702,
+    7.0,
+    25.0
+   ],
+   [
+    102.2304,
+    1.4689,
+    7.0,
+    25.0
+   ],
+   [
+    102.2018,
+    1.4639,
+    7.0,
+    25.0
+   ],
+   [
+    102.2109,
+    1.4625,
+    7.0,
+    25.0
+   ],
+   [
+    102.22,
+    1.4612,
+    7.0,
+    25.0
+   ],
+   [
+    102.2292,
+    1.4599,
+    7.0,
+    25.0
+   ],
+   [
+    103.2289,
+    0.6348,
+    7.0,
+    25.0
+   ],
+   [
+    103.3322,
+    0.5183,
+    7.0,
+    25.0
+   ],
+   [
+    103.0928,
+    -0.1413,
+    7.0,
+    25.0
+   ],
+   [
+    102.2228,
+    1.4714,
+    7.0,
+    25.0
+   ],
+   [
+    102.2252,
+    1.4555,
+    7.0,
+    25.0
+   ],
+   [
+    103.0261,
+    -0.0381,
+    7.0,
+    25.0
+   ],
+   [
+    102.2156,
+    1.4589,
+    7.0,
+    25.0
+   ],
+   [
+    102.2095,
+    1.4555,
+    7.0,
+    25.0
+   ],
+   [
+    102.2288,
+    1.4716,
+    7.0,
+    25.0
+   ],
+   [
+    102.2076,
+    1.4688,
+    7.0,
+    25.0
+   ],
+   [
+    102.227,
+    1.4849,
+    7.0,
+    25.0
+   ],
+   [
+    102.1002,
+    1.482,
+    7.0,
+    25.0
+   ],
+   [
+    101.6805,
+    1.8156,
+    7.0,
+    25.0
+   ],
+   [
+    101.661,
+    1.8129,
+    7.0,
+    25.0
+   ]
+  ],
+  "kab": {
+   "Indragiri Hilir": {
+    "terpapar_pct": 90.2,
+    "sedang_ke_atas_pct": 68.7,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Indragiri Hulu": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 38.4,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kampar": {
+    "terpapar_pct": 97.5,
+    "sedang_ke_atas_pct": 77.2,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kuantan Singingi": {
+    "terpapar_pct": 87.2,
+    "sedang_ke_atas_pct": 7.6,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Pelalawan": {
+    "terpapar_pct": 99.8,
+    "sedang_ke_atas_pct": 73.6,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Rokan Hilir": {
+    "terpapar_pct": 86.8,
+    "sedang_ke_atas_pct": 46.1,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Rokan Hulu": {
+    "terpapar_pct": 88.9,
+    "sedang_ke_atas_pct": 31.2,
+    "kelas_maks": 3,
+    "hari_terpapar": 2
+   },
+   "Bengkalis": {
+    "terpapar_pct": 94.4,
+    "sedang_ke_atas_pct": 89.9,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   },
+   "Kepulauan Meranti": {
+    "terpapar_pct": 59.6,
+    "sedang_ke_atas_pct": 40.2,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   },
+   "Kota Dumai": {
+    "terpapar_pct": 97.9,
+    "sedang_ke_atas_pct": 71.5,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kota Pekanbaru": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 100.0,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Siak": {
+    "terpapar_pct": 99.9,
+    "sedang_ke_atas_pct": 94.4,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   }
+  },
+  "kota_kelas": {
+   "Pekanbaru": 3,
+   "Dumai": 4,
+   "Bengkalis": 4,
+   "Rengat": 3,
+   "Tembilahan": 3,
+   "Siak Sri Indrapura": 3,
+   "Bangkinang": 3,
+   "Bagansiapiapi": 2,
+   "Pasir Pengaraian": 2,
+   "Pangkalan Kerinci": 3,
+   "Jambi": 2
+  }
+ },
+ "2026_03": {
+  "hari": [
+   "2026-03-25",
+   "2026-03-26",
+   "2026-03-27"
+  ],
+  "n_poligon": 139,
+  "sumber": [
+   [
+    101.5344,
+    1.979,
+    17.0,
+    24.0
+   ],
+   [
+    101.5434,
+    1.979,
+    17.0,
+    24.0
+   ],
+   [
+    101.5524,
+    1.979,
+    17.0,
+    24.0
+   ],
+   [
+    101.5339,
+    1.97,
+    17.0,
+    24.0
+   ],
+   [
+    101.5429,
+    1.97,
+    17.0,
+    24.0
+   ],
+   [
+    101.5519,
+    1.97,
+    17.0,
+    24.0
+   ],
+   [
+    101.5333,
+    1.961,
+    17.0,
+    24.0
+   ],
+   [
+    101.5423,
+    1.961,
+    17.0,
+    24.0
+   ],
+   [
+    101.5513,
+    1.961,
+    17.0,
+    24.0
+   ],
+   [
+    101.5328,
+    1.952,
+    17.0,
+    24.0
+   ],
+   [
+    100.6767,
+    1.4034,
+    17.0,
+    24.0
+   ],
+   [
+    100.6857,
+    1.4034,
+    17.0,
+    24.0
+   ],
+   [
+    100.6947,
+    1.4034,
+    17.0,
+    24.0
+   ],
+   [
+    100.6583,
+    1.3944,
+    17.0,
+    24.0
+   ],
+   [
+    100.6673,
+    1.3944,
+    17.0,
+    24.0
+   ],
+   [
+    100.6763,
+    1.3944,
+    17.0,
+    24.0
+   ],
+   [
+    103.2061,
+    0.594,
+    17.0,
+    24.0
+   ],
+   [
+    103.2059,
+    0.585,
+    17.0,
+    24.0
+   ],
+   [
+    103.2058,
+    0.5761,
+    17.0,
+    24.0
+   ],
+   [
+    103.0855,
+    0.3422,
+    17.0,
+    24.0
+   ]
+  ],
+  "kab": {
+   "Indragiri Hilir": {
+    "terpapar_pct": 79.0,
+    "sedang_ke_atas_pct": 30.4,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Indragiri Hulu": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 63.5,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kampar": {
+    "terpapar_pct": 99.1,
+    "sedang_ke_atas_pct": 37.2,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kuantan Singingi": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 39.6,
+    "kelas_maks": 3,
+    "hari_terpapar": 2
+   },
+   "Pelalawan": {
+    "terpapar_pct": 76.2,
+    "sedang_ke_atas_pct": 44.0,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Rokan Hilir": {
+    "terpapar_pct": 72.1,
+    "sedang_ke_atas_pct": 57.9,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   },
+   "Rokan Hulu": {
+    "terpapar_pct": 89.0,
+    "sedang_ke_atas_pct": 46.2,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Bengkalis": {
+    "terpapar_pct": 92.9,
+    "sedang_ke_atas_pct": 84.5,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   },
+   "Kepulauan Meranti": {
+    "terpapar_pct": 3.7,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 2,
+    "hari_terpapar": 1
+   },
+   "Kota Dumai": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 91.8,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kota Pekanbaru": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 2,
+    "hari_terpapar": 3
+   },
+   "Siak": {
+    "terpapar_pct": 72.6,
+    "sedang_ke_atas_pct": 24.3,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   }
+  },
+  "kota_kelas": {
+   "Pekanbaru": 2,
+   "Dumai": 4,
+   "Bengkalis": 3,
+   "Rengat": 3,
+   "Tembilahan": 2,
+   "Siak Sri Indrapura": 2,
+   "Bangkinang": 3,
+   "Pasir Pengaraian": 2
+  }
+ },
+ "2026_04": {
+  "hari": [
+   "2026-04-02",
+   "2026-04-03",
+   "2026-04-04"
+  ],
+  "n_poligon": 69,
+  "sumber": [
+   [
+    101.5539,
+    1.9751,
+    7.0,
+    25.0
+   ],
+   [
+    101.8448,
+    1.4513,
+    7.0,
+    25.0
+   ],
+   [
+    102.4666,
+    1.3179,
+    7.0,
+    25.0
+   ],
+   [
+    102.4256,
+    1.3691,
+    7.0,
+    25.0
+   ],
+   [
+    102.4343,
+    1.3704,
+    7.0,
+    25.0
+   ],
+   [
+    102.4431,
+    1.3717,
+    7.0,
+    25.0
+   ],
+   [
+    102.4356,
+    1.3616,
+    7.0,
+    25.0
+   ],
+   [
+    102.4618,
+    1.3654,
+    7.0,
+    25.0
+   ],
+   [
+    102.4631,
+    1.3567,
+    7.0,
+    25.0
+   ],
+   [
+    102.4706,
+    1.3667,
+    7.0,
+    25.0
+   ],
+   [
+    103.0482,
+    0.3245,
+    7.0,
+    25.0
+   ],
+   [
+    103.0469,
+    0.3333,
+    7.0,
+    25.0
+   ],
+   [
+    102.3475,
+    0.2846,
+    7.0,
+    25.0
+   ],
+   [
+    102.151,
+    0.4495,
+    7.0,
+    25.0
+   ],
+   [
+    102.2829,
+    0.4802,
+    7.0,
+    25.0
+   ],
+   [
+    102.0753,
+    0.5785,
+    7.0,
+    25.0
+   ],
+   [
+    102.4766,
+    1.3104,
+    7.0,
+    25.0
+   ],
+   [
+    102.4753,
+    1.3192,
+    7.0,
+    25.0
+   ],
+   [
+    101.1365,
+    2.1309,
+    7.0,
+    25.0
+   ],
+   [
+    102.4623,
+    1.3727,
+    7.0,
+    25.0
+   ],
+   [
+    102.4759,
+    1.3224,
+    7.0,
+    25.0
+   ],
+   [
+    102.4559,
+    1.3195,
+    7.0,
+    25.0
+   ],
+   [
+    102.4695,
+    1.3211,
+    7.0,
+    25.0
+   ],
+   [
+    102.4641,
+    1.3598,
+    7.0,
+    25.0
+   ],
+   [
+    102.4423,
+    1.3699,
+    7.0,
+    25.0
+   ]
+  ],
+  "kab": {
+   "Indragiri Hilir": {
+    "terpapar_pct": 11.1,
+    "sedang_ke_atas_pct": 5.7,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Indragiri Hulu": {
+    "terpapar_pct": 34.4,
+    "sedang_ke_atas_pct": 6.0,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kampar": {
+    "terpapar_pct": 96.1,
+    "sedang_ke_atas_pct": 36.3,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kuantan Singingi": {
+    "terpapar_pct": 85.6,
+    "sedang_ke_atas_pct": 7.2,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Pelalawan": {
+    "terpapar_pct": 99.1,
+    "sedang_ke_atas_pct": 74.2,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Rokan Hilir": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 58.0,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Rokan Hulu": {
+    "terpapar_pct": 76.9,
+    "sedang_ke_atas_pct": 9.9,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Bengkalis": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 95.7,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   },
+   "Kepulauan Meranti": {
+    "terpapar_pct": 72.9,
+    "sedang_ke_atas_pct": 28.7,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   },
+   "Kota Dumai": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 88.0,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kota Pekanbaru": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 96.0,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Siak": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 87.8,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   }
+  },
+  "kota_kelas": {
+   "Pekanbaru": 3,
+   "Dumai": 2,
+   "Bengkalis": 3,
+   "Siak Sri Indrapura": 3,
+   "Bangkinang": 3,
+   "Bagansiapiapi": 3,
+   "Pangkalan Kerinci": 3,
+   "Melaka": 1,
+   "Kuala Lumpur": 1
+  }
+ },
+ "2026_05": {
+  "hari": [
+   "2026-05-26",
+   "2026-05-27",
+   "2026-05-28"
+  ],
+  "n_poligon": 81,
+  "sumber": [
+   [
+    102.3742,
+    -0.2085,
+    23.0,
+    61.0
+   ],
+   [
+    101.383,
+    1.0077,
+    23.0,
+    61.0
+   ],
+   [
+    103.33,
+    0.5128,
+    23.0,
+    61.0
+   ],
+   [
+    103.3173,
+    0.511,
+    23.0,
+    61.0
+   ]
+  ],
+  "kab": {
+   "Indragiri Hilir": {
+    "terpapar_pct": 98.7,
+    "sedang_ke_atas_pct": 5.6,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Indragiri Hulu": {
+    "terpapar_pct": 77.9,
+    "sedang_ke_atas_pct": 12.6,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kampar": {
+    "terpapar_pct": 12.9,
+    "sedang_ke_atas_pct": 0.1,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kuantan Singingi": {
+    "terpapar_pct": 1.2,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 1,
+    "hari_terpapar": 1
+   },
+   "Pelalawan": {
+    "terpapar_pct": 91.4,
+    "sedang_ke_atas_pct": 7.4,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Rokan Hilir": {
+    "terpapar_pct": 0.3,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 1,
+    "hari_terpapar": 1
+   },
+   "Rokan Hulu": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Bengkalis": {
+    "terpapar_pct": 69.1,
+    "sedang_ke_atas_pct": 5.5,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kepulauan Meranti": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 2,
+    "hari_terpapar": 3
+   },
+   "Kota Dumai": {
+    "terpapar_pct": 24.5,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 1,
+    "hari_terpapar": 1
+   },
+   "Kota Pekanbaru": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 40.5,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Siak": {
+    "terpapar_pct": 92.6,
+    "sedang_ke_atas_pct": 38.4,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   }
+  },
+  "kota_kelas": {
+   "Pekanbaru": 2,
+   "Bengkalis": 2,
+   "Rengat": 2,
+   "Tembilahan": 1,
+   "Siak Sri Indrapura": 2,
+   "Pangkalan Kerinci": 2,
+   "Singapura": 2,
+   "Batam": 2,
+   "Johor Bahru": 2,
+   "Tanjungpinang": 1
+  }
+ },
+ "2026_06": {
+  "hari": [
+   "2026-06-06",
+   "2026-06-07",
+   "2026-06-08"
+  ],
+  "n_poligon": 69,
+  "sumber": [
+   [
+    100.2708,
+    0.7438,
+    7.0,
+    143.0
+   ],
+   [
+    100.384,
+    0.5575,
+    7.0,
+    143.0
+   ],
+   [
+    100.2812,
+    0.7363,
+    7.0,
+    143.0
+   ],
+   [
+    100.272,
+    0.735,
+    7.0,
+    143.0
+   ],
+   [
+    100.2458,
+    0.7943,
+    7.0,
+    143.0
+   ],
+   [
+    100.2368,
+    0.7929,
+    7.0,
+    143.0
+   ],
+   [
+    100.3369,
+    0.8736,
+    7.0,
+    143.0
+   ],
+   [
+    100.2549,
+    1.0374,
+    7.0,
+    143.0
+   ],
+   [
+    101.5184,
+    1.6303,
+    7.0,
+    143.0
+   ],
+   [
+    101.5221,
+    1.6362,
+    7.0,
+    143.0
+   ],
+   [
+    100.9115,
+    1.3143,
+    7.0,
+    143.0
+   ]
+  ],
+  "kab": {
+   "Indragiri Hilir": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Indragiri Hulu": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Kampar": {
+    "terpapar_pct": 6.5,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 2,
+    "hari_terpapar": 3
+   },
+   "Kuantan Singingi": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Pelalawan": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Rokan Hilir": {
+    "terpapar_pct": 98.9,
+    "sedang_ke_atas_pct": 68.7,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Rokan Hulu": {
+    "terpapar_pct": 95.2,
+    "sedang_ke_atas_pct": 71.7,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   },
+   "Bengkalis": {
+    "terpapar_pct": 25.0,
+    "sedang_ke_atas_pct": 10.7,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kepulauan Meranti": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Kota Dumai": {
+    "terpapar_pct": 99.4,
+    "sedang_ke_atas_pct": 82.8,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kota Pekanbaru": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Siak": {
+    "terpapar_pct": 0.4,
+    "sedang_ke_atas_pct": 0.1,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   }
+  },
+  "kota_kelas": {
+   "Dumai": 4,
+   "Bagansiapiapi": 2,
+   "Pasir Pengaraian": 5,
+   "Kuala Lumpur": 1,
+   "Port Dickson": 1,
+   "Medan": 1
+  }
+ },
+ "2026_07": {
+  "hari": [
+   "2026-07-17",
+   "2026-07-18",
+   "2026-07-19"
+  ],
+  "n_poligon": 45,
+  "sumber": [
+   [
+    101.0389,
+    1.137,
+    7.0,
+    143.0
+   ],
+   [
+    101.0373,
+    1.1443,
+    7.0,
+    143.0
+   ],
+   [
+    101.0278,
+    1.1329,
+    7.0,
+    143.0
+   ],
+   [
+    101.0388,
+    1.1345,
+    7.0,
+    143.0
+   ],
+   [
+    100.1773,
+    0.8232,
+    7.0,
+    143.0
+   ],
+   [
+    100.2453,
+    0.7908,
+    7.0,
+    143.0
+   ],
+   [
+    102.29,
+    -0.7701,
+    7.0,
+    143.0
+   ],
+   [
+    101.0465,
+    2.2142,
+    7.0,
+    143.0
+   ],
+   [
+    101.048,
+    2.2046,
+    7.0,
+    143.0
+   ],
+   [
+    101.1178,
+    2.1417,
+    7.0,
+    143.0
+   ],
+   [
+    101.0264,
+    1.1427,
+    7.0,
+    143.0
+   ]
+  ],
+  "kab": {
+   "Indragiri Hilir": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Indragiri Hulu": {
+    "terpapar_pct": 54.1,
+    "sedang_ke_atas_pct": 32.4,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kampar": {
+    "terpapar_pct": 88.7,
+    "sedang_ke_atas_pct": 4.0,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kuantan Singingi": {
+    "terpapar_pct": 89.7,
+    "sedang_ke_atas_pct": 10.4,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Pelalawan": {
+    "terpapar_pct": 39.1,
+    "sedang_ke_atas_pct": 3.0,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Rokan Hilir": {
+    "terpapar_pct": 99.9,
+    "sedang_ke_atas_pct": 85.9,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Rokan Hulu": {
+    "terpapar_pct": 89.7,
+    "sedang_ke_atas_pct": 70.0,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   },
+   "Bengkalis": {
+    "terpapar_pct": 16.4,
+    "sedang_ke_atas_pct": 12.9,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   },
+   "Kepulauan Meranti": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Kota Dumai": {
+    "terpapar_pct": 40.6,
+    "sedang_ke_atas_pct": 28.3,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kota Pekanbaru": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 1,
+    "hari_terpapar": 1
+   },
+   "Siak": {
+    "terpapar_pct": 26.5,
+    "sedang_ke_atas_pct": 8.6,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   }
+  },
+  "kota_kelas": {
+   "Pekanbaru": 1,
+   "Bangkinang": 1,
+   "Bagansiapiapi": 3,
+   "Pasir Pengaraian": 4,
+   "Pangkalan Kerinci": 1,
+   "Medan": 1
+  }
+ },
+ "2026_08": {
+  "hari": [
+   "2026-08-22",
+   "2026-08-23",
+   "2026-08-24"
+  ],
+  "n_poligon": 106,
+  "sumber": [
+   [
+    102.2911,
+    -0.134,
+    11.0,
+    163.0
+   ],
+   [
+    102.5347,
+    -1.0503,
+    11.0,
+    163.0
+   ],
+   [
+    103.2224,
+    -0.763,
+    11.0,
+    163.0
+   ],
+   [
+    103.2095,
+    -0.7649,
+    11.0,
+    163.0
+   ],
+   [
+    103.2209,
+    -0.7524,
+    11.0,
+    163.0
+   ],
+   [
+    103.208,
+    -0.7544,
+    11.0,
+    163.0
+   ],
+   [
+    102.2923,
+    -0.7749,
+    11.0,
+    163.0
+   ],
+   [
+    103.2702,
+    -0.5989,
+    11.0,
+    163.0
+   ],
+   [
+    103.2575,
+    -0.6007,
+    11.0,
+    163.0
+   ],
+   [
+    101.6423,
+    -0.8217,
+    11.0,
+    163.0
+   ],
+   [
+    101.6377,
+    -0.8287,
+    11.0,
+    163.0
+   ],
+   [
+    103.1679,
+    -0.1961,
+    11.0,
+    163.0
+   ],
+   [
+    103.1552,
+    -0.198,
+    11.0,
+    163.0
+   ],
+   [
+    103.0412,
+    -0.0412,
+    11.0,
+    163.0
+   ],
+   [
+    103.0283,
+    -0.0431,
+    11.0,
+    163.0
+   ],
+   [
+    102.3105,
+    -0.1507,
+    11.0,
+    163.0
+   ],
+   [
+    102.2957,
+    -0.1529,
+    11.0,
+    163.0
+   ],
+   [
+    102.2809,
+    -0.1551,
+    11.0,
+    163.0
+   ],
+   [
+    102.266,
+    -0.1574,
+    11.0,
+    163.0
+   ],
+   [
+    102.3088,
+    -0.1395,
+    11.0,
+    163.0
+   ],
+   [
+    102.2941,
+    -0.1417,
+    11.0,
+    163.0
+   ],
+   [
+    102.2792,
+    -0.1439,
+    11.0,
+    163.0
+   ],
+   [
+    102.2643,
+    -0.1462,
+    11.0,
+    163.0
+   ],
+   [
+    102.2776,
+    -0.1327,
+    11.0,
+    163.0
+   ],
+   [
+    103.24,
+    0.0204,
+    11.0,
+    163.0
+   ]
+  ],
+  "kab": {
+   "Indragiri Hilir": {
+    "terpapar_pct": 86.0,
+    "sedang_ke_atas_pct": 62.8,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Indragiri Hulu": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 96.8,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kampar": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 72.2,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kuantan Singingi": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 91.1,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Pelalawan": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 94.8,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   },
+   "Rokan Hilir": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 98.9,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Rokan Hulu": {
+    "terpapar_pct": 99.3,
+    "sedang_ke_atas_pct": 48.7,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Bengkalis": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 100.0,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kepulauan Meranti": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 66.1,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kota Dumai": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 100.0,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kota Pekanbaru": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 100.0,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Siak": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 100.0,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   }
+  },
+  "kota_kelas": {
+   "Pekanbaru": 3,
+   "Dumai": 3,
+   "Bengkalis": 3,
+   "Rengat": 3,
+   "Tembilahan": 3,
+   "Siak Sri Indrapura": 3,
+   "Bangkinang": 2,
+   "Bagansiapiapi": 3,
+   "Pasir Pengaraian": 2,
+   "Pangkalan Kerinci": 3,
+   "Melaka": 2,
+   "Kuala Lumpur": 3,
+   "Port Dickson": 2
+  }
+ },
+ "2026_09": {
+  "hari": [
+   "2026-09-04",
+   "2026-09-05",
+   "2026-09-06"
+  ],
+  "n_poligon": 131,
+  "sumber": [
+   [
+    102.1058,
+    0.6766,
+    11.0,
+    61.0
+   ],
+   [
+    103.2139,
+    -0.7591,
+    11.0,
+    61.0
+   ],
+   [
+    102.8956,
+    -0.8062,
+    11.0,
+    61.0
+   ],
+   [
+    102.0288,
+    -0.8764,
+    11.0,
+    61.0
+   ],
+   [
+    102.0371,
+    -0.8754,
+    11.0,
+    61.0
+   ],
+   [
+    102.2913,
+    -0.1469,
+    11.0,
+    61.0
+   ],
+   [
+    102.0993,
+    0.6773,
+    11.0,
+    61.0
+   ],
+   [
+    102.272,
+    -0.9074,
+    11.0,
+    61.0
+   ],
+   [
+    102.2631,
+    -0.9087,
+    11.0,
+    61.0
+   ],
+   [
+    102.0352,
+    -0.8839,
+    11.0,
+    61.0
+   ],
+   [
+    102.0329,
+    -0.8662,
+    11.0,
+    61.0
+   ],
+   [
+    101.995,
+    -0.8535,
+    11.0,
+    61.0
+   ],
+   [
+    101.9862,
+    -0.8547,
+    11.0,
+    61.0
+   ],
+   [
+    102.5224,
+    0.1418,
+    11.0,
+    61.0
+   ],
+   [
+    102.1072,
+    0.6752,
+    11.0,
+    61.0
+   ],
+   [
+    102.0982,
+    0.6739,
+    11.0,
+    61.0
+   ],
+   [
+    102.106,
+    0.6841,
+    11.0,
+    61.0
+   ],
+   [
+    101.1556,
+    1.0598,
+    11.0,
+    61.0
+   ]
+  ],
+  "kab": {
+   "Indragiri Hilir": {
+    "terpapar_pct": 57.2,
+    "sedang_ke_atas_pct": 34.3,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Indragiri Hulu": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 93.8,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   },
+   "Kampar": {
+    "terpapar_pct": 99.9,
+    "sedang_ke_atas_pct": 95.6,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kuantan Singingi": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 94.8,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Pelalawan": {
+    "terpapar_pct": 94.3,
+    "sedang_ke_atas_pct": 72.1,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Rokan Hilir": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 100.0,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Rokan Hulu": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 96.1,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Bengkalis": {
+    "terpapar_pct": 98.7,
+    "sedang_ke_atas_pct": 80.1,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Kepulauan Meranti": {
+    "terpapar_pct": 47.3,
+    "sedang_ke_atas_pct": 0.3,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kota Dumai": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 100.0,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kota Pekanbaru": {
+    "terpapar_pct": 100.0,
+    "sedang_ke_atas_pct": 100.0,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Siak": {
+    "terpapar_pct": 97.9,
+    "sedang_ke_atas_pct": 85.5,
+    "kelas_maks": 5,
+    "hari_terpapar": 3
+   }
+  },
+  "kota_kelas": {
+   "Pekanbaru": 3,
+   "Dumai": 3,
+   "Bengkalis": 2,
+   "Rengat": 3,
+   "Tembilahan": 3,
+   "Siak Sri Indrapura": 4,
+   "Bangkinang": 3,
+   "Bagansiapiapi": 3,
+   "Pasir Pengaraian": 3,
+   "Pangkalan Kerinci": 3,
+   "Kuala Lumpur": 2,
+   "Port Dickson": 2
+  }
+ },
+ "2026_10": {
+  "hari": [
+   "2026-10-03",
+   "2026-10-04",
+   "2026-10-05"
+  ],
+  "n_poligon": 24,
+  "sumber": [
+   [
+    101.4397,
+    -0.6843,
+    163.0,
+    163.0
+   ],
+   [
+    101.4382,
+    -0.6754,
+    163.0,
+    163.0
+   ]
+  ],
+  "kab": {
+   "Indragiri Hilir": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Indragiri Hulu": {
+    "terpapar_pct": 0.5,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 2,
+    "hari_terpapar": 1
+   },
+   "Kampar": {
+    "terpapar_pct": 87.2,
+    "sedang_ke_atas_pct": 4.9,
+    "kelas_maks": 3,
+    "hari_terpapar": 3
+   },
+   "Kuantan Singingi": {
+    "terpapar_pct": 90.2,
+    "sedang_ke_atas_pct": 69.6,
+    "kelas_maks": 4,
+    "hari_terpapar": 3
+   },
+   "Pelalawan": {
+    "terpapar_pct": 4.8,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 2,
+    "hari_terpapar": 1
+   },
+   "Rokan Hilir": {
+    "terpapar_pct": 2.2,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 1,
+    "hari_terpapar": 1
+   },
+   "Rokan Hulu": {
+    "terpapar_pct": 60.4,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 2,
+    "hari_terpapar": 2
+   },
+   "Bengkalis": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Kepulauan Meranti": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Kota Dumai": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   },
+   "Kota Pekanbaru": {
+    "terpapar_pct": 11.9,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 1,
+    "hari_terpapar": 1
+   },
+   "Siak": {
+    "terpapar_pct": 0.0,
+    "sedang_ke_atas_pct": 0.0,
+    "kelas_maks": 0,
+    "hari_terpapar": 0
+   }
+  },
+  "kota_kelas": {
+   "Bangkinang": 2,
+   "Pasir Pengaraian": 2
+  }
+ }
+}

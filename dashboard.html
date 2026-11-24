@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard – ASAP RIAU</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/dashboard.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="dhead">
+  <div class="wrap">
+    <div><span class="pill" style="background:rgba(29,78,216,.1);color:#1d4ed8;border-color:#bfdbfe">Dashboard interaktif</span>
+      <h1>Bahaya & Dampak Asap Karhutla Riau <span id="judulBulan">–</span></h1>
+      <p>Kerawanan (AHP) · titik panas MODIS · dispersi asap HYSPLIT 72 jam · wilayah terpapar</p></div>
+    <button class="btn btn-line" id="btnTour">❔ Panduan</button>
+  </div>
+</div>
+
+<div class="dash">
+  <aside class="panel" data-tour="filter">
+    <h3>Filter & Layer</h3>
+    <label class="lbl">Waktu</label>
+    <div class="slider" data-tour="waktu">
+      <button id="play" class="btn btn-blue sm" title="Putar animasi">▶</button>
+      <input type="range" id="bulan" min="0" max="9" value="7"><b id="lblBulan">–</b>
+    </div>
+    <label class="lbl">Wilayah</label>
+    <select id="kab"><option value="">Seluruh Provinsi Riau</option></select>
+
+    <label class="lbl">Hari simulasi asap</label>
+    <div class="seg" id="hari"><button data-h="all" class="on">Semua</button><button data-h="0">H+1</button><button data-h="1">H+2</button><button data-h="2">H+3</button></div>
+
+    <label class="lbl">Layer</label>
+    <div id="layers" data-tour="layer"></div>
+
+    <label class="lbl">Choropleth kabupaten</label>
+    <select id="varKab"></select>
+
+    <label class="lbl">Peta dasar</label>
+    <select id="basemap"><option value="carto">Carto Light</option><option value="osm">OpenStreetMap</option><option value="esri">Citra satelit (Esri)</option><option value="dark">Carto Dark</option></select>
+  </aside>
+
+  <main class="mapwrap">
+    <div id="map"></div>
+    <div class="maptag" id="mapTag">–</div>
+  </main>
+
+  <aside class="panel right" data-tour="ringkas">
+    <h3>Ringkasan Cepat <small id="ringkasNama">Provinsi Riau</small></h3>
+    <div class="kpis" id="kpis"></div>
+    <h3 style="margin-top:18px">Kota dalam jalur asap</h3>
+    <div id="kota" class="kota"></div>
+    <p class="note" id="catHys"></p>
+  </aside>
+</div>
+
+<section class="section-gray" style="padding:36px 0 60px">
+  <div class="wrap" data-tour="grafik">
+    <div class="grid g2">
+      <div class="card"><h4 class="ch">Tren bulanan <small id="trenNama">Provinsi Riau</small></h4><div class="chartbox"><canvas id="cTren"></canvas></div></div>
+      <div class="card"><h4 class="ch">Peringkat kabupaten <small id="rankNama">–</small></h4><div class="chartbox"><canvas id="cRank"></canvas></div></div>
+    </div>
+    <div class="card" style="margin-top:20px"><h4 class="ch">Paparan asap per kabupaten – <span id="papNama">–</span></h4>
+      <div style="overflow:auto"><table class="t" id="tPap"></table></div>
+      <p class="note">Terpapar = berada di dalam kontur asap kelas mana pun selama 72 jam; "sedang ke atas" = konsentrasi relatif ≥ 1E-12 /m³. Dihitung dari sampel grid 0,02°.</p></div>
+  </div>
+</section>
+
+<div id="tour" class="tour hide"><div class="tbox"><small id="tStep"></small><h4 id="tJudul"></h4><p id="tIsi"></p>
+  <div class="tnav"><button class="btn btn-line sm" id="tSkip">Lewati</button><span><button class="btn btn-line sm" id="tPrev">←</button> <button class="btn btn-blue sm" id="tNext">Lanjut →</button></span></div></div></div>
+
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/dashboard.js"></script>
+</body>
+</html>
