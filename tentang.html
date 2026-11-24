@@ -71,7 +71,7 @@ const TIM = [
   ["Davina Lena", "15123119"],
   ["Azhar Nabhan", "15123120"]
 ];
-tim.innerHTML = TIM.map(([n, nim, r]) => `<div class="card person reveal on"><div class="av">${n.split(" ").map(s => s[0]).join("").slice(0, 2)}</div><b>${n}</b><small>${nim}</small><p style="margin-top:6px">${r}</p></div>`).join("");
+tim.innerHTML = TIM.map(([n, nim, r]) => `<div class="card person reveal on"><div class="av">${n.split(" ").map(s => s[0]).join("").slice(0, 2)}</div><b>${n}</b><small>${nim}</small>${r ? `<p style="margin-top:6px">${r}</p>` : ""}</div>`).join("");
 </script>
 </body>
 </html>
